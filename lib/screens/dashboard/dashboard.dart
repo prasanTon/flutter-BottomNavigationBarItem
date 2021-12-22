@@ -17,12 +17,16 @@ class _DashboardScreenState extends State<DashboardScreen> {
       bottomNavigationBar:
           BottomNavigationBar(type: BottomNavigationBarType.fixed, items: [
         BottomNavigationBarItem(
-            icon: Icon(Icons.business_center), title: Text('บริการ')),
+            icon: Icon(Icons.business_center, color: Colors.black),
+            title: Text('บริการ')),
         BottomNavigationBarItem(
-            icon: Icon(Icons.shopping_cart), title: Text('ตลาด')),
+            icon: Icon(Icons.shopping_cart, color: Colors.black),
+            title: Text('ตลาด')),
         BottomNavigationBarItem(
-            icon: Icon(Icons.library_books), title: Text('รายการ')),
-        BottomNavigationBarItem(icon: Icon(Icons.menu), title: Text('อื่นๆ')),
+            icon: Icon(Icons.library_books, color: Colors.black),
+            title: Text('รายการ')),
+        BottomNavigationBarItem(
+            icon: Icon(Icons.menu, color: Colors.black), title: Text('อื่นๆ')),
       ]),
     );
   }
